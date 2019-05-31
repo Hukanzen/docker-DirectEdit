@@ -15,8 +15,6 @@ COPY txtedit.conf .
 
 #RUn cat *.*
 
-#ENV YOURDOMAIN hukanzen.mydns.jp
-#ENV YOURMAILADDR pikachu_raichyu@yahoo.co.jp
 RUN mkdir -p /etc/letsencrypt/live/hukanzen.mydns.jp
 RUN ls -l
 
